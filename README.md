@@ -2,13 +2,13 @@
 
 ## Requirements
 
-* [ ] Clone the Rails application, run: `bundle`, `rails db:create` and `rails db:migrate`.
-* [ ] Generate a `PagesController` with pages `home`, `profile`, and `news`.
-* [ ] Map the `home` action in the `PagesController` to the root path.
-* [ ] Customize routes for pages so they don't have `/pages/` in the URL path.
-* [ ] Install `Devise gem` and follow instructions from the Documentation to implement authentication.
+* [ x] Clone the Rails application, run: `bundle`, `rails db:create` and `rails db:migrate`.
+* [ x] Generate a `PagesController` with pages `home`, `profile`, and `news`.
+* [ x] Map the `home` action in the `PagesController` to the root path.
+* [ x] Customize routes for pages so they don't have `/pages/` in the URL path.
+* [x ] Install `Devise gem` and follow instructions from the Documentation to implement authentication.
   - When running the command `rails generate devise MODEL`, replace `MODEL` with `Admin`.      
-* [ ] Implement a view helper for authentication links on all pages.
+* [ x] Implement a view helper for authentication links on all pages.
 
 ## Instructions
 
